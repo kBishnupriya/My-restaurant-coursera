@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant Specials</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>Our Restaurant</h1>
+    <nav>
+      <a href="#" onclick="$dc.loadMenuItems('{{randomCategoryShortName}}');" id="specials-link">Specials</a>
+    </nav>
+  </header>
+
+ <main id="main-content">
+  <!-- Static image shown before dynamic content -->
+  <img src="images/restaurant.jpg" alt="Restaurant Image" style="width:100%; max-width:600px; display:block; margin:auto;">
+
+  <!-- Content gets loaded dynamically here -->
+</main>
+
+
+</body>
+</html>
